@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="icon" href="images/Logo.jpg">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/4696d7cc0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-pc">
+        <div class="nav">
+            <div class="nav_cont">
+                <div class="nav_left">
+                    <img class="logo" src="images/Logo.jpg">
+                    <a href="mainPage.html" class="navtext">Categories</a>
+                    <a href="mainPage.html" class="navtext">5-Star Rated</a>
+                    <a href="mainPage.html" class="navtext">Best Sellers</a>
+                </div>
+    
+                <div class="nav_right">
+                    <a href="register.html" class="navtext">Register</a>
+                    <a href="login.html" class="navtext">Log in</a>
+                    <a href="cart.html" class="navtext">
+                        <i class="fa-solid fa-cart-shopping fa-l" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header-mobile">
+        <div class="nav">
+            <div class="nav-mob">
+                <img class="logo" src="images/Logo.jpg">
+
+                <a href="register.html" class="navtext">
+                    <i class="fa-solid fa-user fa-fade fa-xl" style="color: #ffffff;"></i>
+                </a>
+                <a href="cart.html" class="navtext">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-pc">
+        <div class="main_cont">
+            <div class="itemCont" onclick="redirect('compress.html')">
+                <img src="images/blackComp.webp">
+                <div class="priceTxt">
+                    <h4>24.99 ₾</h4>
+                    <span class="discountTxt">44.97 ₾</span>
+                    <div class="discount">-51%</div>
+                </div>
+                <h5>⭐⭐⭐⭐⭐ (2,412)</h5>
+            </div>
+
+            <div class="itemCont" onclick="redirect('dumbell.html')">
+                <img src="images/dumbells.webp">
+                <div class="priceTxt">
+                    <h4>139.99 ₾</h4>
+                    <span class="discountTxt">279.97 ₾</span>
+                    <div class="discount">-50%</div>
+                </div>
+                <h5>⭐⭐⭐⭐⭐ (41)</h5>
+            </div>
+
+            <div class="itemCont" onclick="redirect('sleeves.html')">
+                <img src="images/elbowSleeve.webp">
+                <div class="priceTxt">
+                    <h4>19.99 ₾</h4>
+                    <span class="discountTxt">39.97 ₾</span>
+                    <div class="discount">-50%</div>
+                </div>
+                <h5>⭐⭐⭐⭐⭐ (120)</h5>
+            </div>
+
+            <div class="itemCont" onclick="redirect('gripper.html')">
+                <img src="images/gripper.webp">
+                <div class="priceTxt">
+                    <h4>59.99 ₾</h4>
+                    <span class="discountTxt">120 ₾</span>
+                    <div class="discount">-50%</div>
+                </div>
+                <h5>⭐⭐⭐⭐⭐ (612)</h5>
+            </div>
+
+            <div class="itemCont" onclick="redirect('wrist.html')">
+                <img src="images/wrist.webp">
+                <div class="priceTxt">
+                    <h4>9.99 ₾</h4>
+                    <span class="discountTxt">19.99 ₾</span>
+                    <div class="discount">-50%</div>
+                </div>
+                <h5>⭐⭐⭐⭐⭐ (1462)</h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
